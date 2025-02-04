@@ -1208,6 +1208,17 @@
       "url": "https://json.schemastore.org/github-workflow-template-properties.json"
     },
     {
+      "name": "Gitpod Automation",
+      "description": "Json schema for configuration properties of Gitpod Automations",
+      "fileMatch": [
+        "automations.json",
+        "automations.yaml",
+        "automations.yml",
+        "automation.yaml"
+      ],
+      "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json"
+    },
+    {
       "name": "gitlab-ci",
       "description": "JSON schema for configuring Gitlab CI",
       "fileMatch": [
